@@ -1,0 +1,186 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+html {
+  background-color: aliceblue;
+  caret-color: transparent;
+}
+header {
+    background-image: url("./images/pexels-gsn-travel-28878784.jpg");
+    background-position: center;
+    background-size: cover;
+    padding:16px;
+    text-align: center;
+    color:white;
+  }
+  header p {
+    font-size: 1.5rem;
+  }
+main {
+  box-shadow: 0px 0px 2px 1px;
+  border-radius: 16px;
+  margin: 16px;
+  padding: 10px;
+  background-color: #d4d4d8;
+}
+.myProjects h2{
+  text-align: center;
+}
+.projects {
+  display: flex;
+  flex-wrap:wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+}
+.project {
+  margin:16px;
+  max-width:500px;
+}
+.image {
+  width:300px;
+  height:200px;
+}
+.img1 {
+  background-image:url("./images/Recipessm.webp");
+  background-position: center;
+  background-size: cover;
+}
+.img2 {
+  background-image:url("./images/Restaurantsm.webp");
+  background-position: center;
+  background-size: cover;
+}
+.img3 {
+  background-image:url("./images/weathersm.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.img4 {
+  background-image:url("./images/landing1sm.webp");
+  background-position: center;
+  background-size: cover;
+}
+.img5 {
+  background-image:url("./images/calcsm.webp");
+  background-position: center;
+  background-size: cover;
+}
+.img6 {
+  background-image:url("./images/tictactoesm.webp");
+  background-position: center;
+  background-size: cover;
+}
+footer {
+  background-color:#334155;
+  margin: 16px;
+  padding: 10px;
+  border-radius: 8px;
+  display:flex;
+  color:white;
+  justify-content:space-around ;
+}
+footer h2 {
+  text-align: center;
+}
+footer img{
+  
+  height: 300px;
+  width: 45vw;
+  object-fit: cover;
+  border-radius: 5px;
+}.footerInf {
+  margin-top: 2%;
+}
+.links {
+  color:white;
+  display: flex;
+  justify-content: space-around;
+}
+.social-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+@media (min-width: 500px) {
+  header {
+    text-align: center;
+    padding: 200px;
+    line-height: 2;;
+    
+  }
+}
+@media 
+  (min-width: 468px),
+  (-webkit-min-device-pixel-ratio: 2), 
+  (min-resolution: 192dpi) {
+  .img1 {
+    background-image: url("./images/Recipessm.png");
+  }
+  .img2 {
+    background-image: url("./images/Restaurantsm.png");
+  }
+  .img3 {
+    background-image: url("./images/weathersm.png");
+  }
+  .img4 {
+    background-image: url("./images/landing1sm.png");
+  }
+  .img5 {
+    background-image: url("./images/calcsm.png");
+  }
+  .img6 {
+    background-image: url("./images/tictactoesm.png");
+  }
+}
